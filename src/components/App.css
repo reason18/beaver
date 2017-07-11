@@ -1,0 +1,127 @@
+.wrapper {
+  width: 100%;
+
+  background: mediumturquoise;
+}
+.holder {
+  width: 80%;
+  margin: 0 auto;
+}
+.main-page {
+    height: 654px;
+}
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.header-contacts-flex {
+  padding-top: 14px;
+  width:40%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.contacts-head {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color:antiquewhite;
+}
+.contacts-item {
+  max-height: 20px;
+  display: inline-block;
+  padding: 10px 15px;
+  background: cadetblue;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: antiquewhite;
+}
+.header-logo {
+    width: 100px;
+    height: 40px;
+    background: cadetblue;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: antiquewhite;
+}
+.content {
+  margin-top: 150px;
+}
+h1 {
+    text-align: center;
+    color: antiquewhite;
+    font-size: 52px;
+}
+h2 {
+  color: antiquewhite;
+  text-align: center;
+}
+.banner-buttons-block {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.banner-button {
+  padding: 10px 15px;
+  border: 1px solid antiquewhite;
+  color: antiquewhite;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  box-sizing: border-box;
+  transition: transform ease-out 0.1s, background 0.2s;
+}
+.banner-button:hover {
+  background: cadetblue;
+  border: 1px solid lawngreen;
+}
+.navigation {
+  background: darkkhaki;
+  border: 1px solid cadetblue;
+}
+.navigation-block {
+  margin: 0 auto;
+  list-style-type: none;
+  padding: 0;
+}
+.navigation-flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.navigation-logo {
+  width: 100px;
+  height: 40px;
+  background: cadetblue;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: antiquewhite;
+}
+.navigation-item {
+  display: inline-block;
+}
+.navigation-item a{
+  display: block;
+  box-sizing: border-box;
+  padding: 18px 10px;
+  color: steelblue;
+  font-weight: bold;
+  text-decoration: none;
+}
+.navigation-item a:hover {
+  color: white;
+}
+.about {
+  height: 600px;
+}
