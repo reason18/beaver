@@ -8,6 +8,8 @@ import Portfolio from './Portfolio';
 import Contacts from './Contacts';
 import Reviews from './Reviews';
 import Blog from './Blog';
+import Footer from './Footer';
+
 
 
 
@@ -23,9 +25,10 @@ class App extends Component {
           <Contacts />
           <Reviews />
           <Blog />
-      </div>
-    );
-  }
-}
+          <Footer />
+          </div>
+        );
+      }
+    }
 
-export default App;
+    export default App;

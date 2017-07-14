@@ -1,3 +1,4 @@
+
 .about-block {
   min-height: 600px;
   background: darkseagreen;
@@ -25,14 +26,22 @@
 .employes-flex {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0 auto;
 }
+.employes-block-flex {
+  width: 25%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin-bottom: 10px;
+  text-align: center;
+}
 .employes-photo {
+  display: inline-block;
   width: 200px;
   height: 200px;
   background: grey;
-  outline: 1px solid;
 }
 .employes-name {
   margin: 8px 0;
@@ -45,4 +54,111 @@
   color: grey;
   text-align: center;
   margin: 0;
+}
+
+@media screen and (min-width: 425px){
+  .about-us-block {
+    padding: 20px;
+    width: 99%;
+  }
+  .employes-photo {
+    width: 150px;
+    height: 150px;
+  }
+  .employes-name {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  .employes-position {
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+  .employes-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+  .employes-block-flex {
+    width: 25%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .about-us-block {
+    padding: 30px;
+    width: 90%;
+  }
+
+  .employes-name {
+    margin: 8px 0;
+    font-size: 18px;
+  }
+  .employes-position {
+    font-size: 14px;
+    padding-bottom: 5px;
+  }
+  .employes-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+  .employes-block-flex {
+    width: 40%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .employes-block {
+    width: 40%;
+  }
+  .employes-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+  .employes-block-flex {
+    width: 40%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: space-around;
+  }
+}
+@media screen and (min-width: 1200px){
+  .employes-photo {
+    width: 190px;
+    height: 190px;
+  }
+  .employes-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+  .employes-block-flex {
+    width: 25%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+  }
 }

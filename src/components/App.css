@@ -6,6 +6,8 @@
 @import 'contacts.css';
 @import 'reviews.css';
 @import 'blog.css';
+@import 'footer.css';
+
 
 .App {
   width: 100%;
@@ -14,7 +16,28 @@
   width: 1170px;
   margin: 0 auto;
 }
-body,div,p {
+body,div,p,ul,li,h1,h2,h3 {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
+@media screen and (min-width: 425px){
+  .holder {
+    width:90%;
+  }
+}
+
+@media screen and (min-width: 768px){
+.holder {
+    width:90%;
+}}
+
+@media screen and (min-width: 992px){
+.holder {
+    width:90%;
+}}
+@media screen and (min-width: 1200px){
+.holder {
+    width: 90%;
+}}
