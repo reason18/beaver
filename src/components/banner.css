@@ -1,0 +1,112 @@
+.main-page {
+    min-height: 654px;
+    background: url('banner.jpg') -200px 0px no-repeat;
+    background-size: 120%;
+}
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.header-contacts-flex {
+  padding-top: 14px;
+  width:40%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.contacts-head {
+  width: 100%;
+  text-align: center;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  color:antiquewhite;
+  text-shadow: 1px 1px #843f3f;
+}
+.header-contacts-item {
+  max-height: 20px;
+  display: inline-block;
+  padding: 10px 15px;
+  background: cadetblue;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: antiquewhite;
+  text-shadow: 1px 1px #843f3f;;
+}
+.header-logo {
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    border-top: 3px solid cadetblue;
+    border-bottom: 3px solid cadetblue;
+    padding-top: 10px;
+    font-size: 26px;
+    font-weight: bold;
+    color: antiquewhite;
+    text-shadow: 1px 1px #843f3f;
+}
+
+.content {
+  margin-top: 150px;
+}
+.h1_header {
+  margin: 0 0;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 52px;
+    text-shadow: 2px 2px #843f3f;;
+}
+.h2_header {
+  margin: 0;
+  padding: 25px 0;
+  color: antiquewhite;
+  text-align: center;
+  text-shadow: 1.5px 1.5px #843f3f;;
+}
+.banner-buttons-block {
+  position: relative;
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.banner-button {
+  max-height: 40px;
+  background: cadetblue;
+  padding: 10px 15px;
+  border: 1px solid antiquewhite;
+  color: antiquewhite;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  box-sizing: border-box;
+  text-shadow: 1px 1px darkgrey;
+}
+.do-order-button{
+  position: absolute;
+  top:10px;
+  left: 10px;
+}
+.view-projects-button {
+  position: absolute;
+  top:10px;
+  right: 10px;
+}
+
+.banner-button:hover {
+  top: 9px;
+  background: cadetblue;
+  border: 1px solid darkgrey;
+  box-shadow: 2px 2px 1px 0.5px darkgrey;
+  cursor: pointer;
+}
+.banner-button:active {
+  top: 13px;
+  box-shadow: 1px 1px 1px 0.5px darkgrey;
+}
+.parallax {
+
+}

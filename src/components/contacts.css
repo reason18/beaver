@@ -1,0 +1,78 @@
+.contacts-block {
+  background: cadetblue;
+  padding-bottom: 50px;
+}
+.contacts-flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.contacts-info {
+  width: 45%;
+}
+.contacts-form {
+  width: 45%;
+}
+.contacts-discription {
+  margin: 25px 0;
+  text-indent: 1.5em;
+  line-height: 1.4;
+  text-align: justify;
+  color: antiquewhite;
+  text-shadow: 1px 1px darkslategray;
+}
+.contacts-item {
+  padding: 10px;
+  font-size: 16px;
+  color: antiquewhite;
+  text-shadow: 1px 1px darkslategray;
+}
+.contacts-icon {
+  height: 15px;
+  padding: 5px;
+  padding-left: 25px;
+  margin-right: 15px;
+  }
+
+.addres-icon {
+    background: url('cnt.png') 1px 1px cadetblue no-repeat;
+}
+.phone-icon {
+    background: url('cnt.png') -23px 1px cadetblue no-repeat;
+}
+.email-icon {
+    background: url('cnt.png') -50px 1px cadetblue no-repeat;
+}
+.contacts-form {
+  text-align: center;
+}
+.form-input {
+  width: 80%;
+  margin: 10px 0;
+  padding: 8px 20px;
+  font-size: 20px;
+  border: 1px solid darkolivegreen;
+  color: cadetblue;
+}
+.form-message {
+  width: 80%;
+  padding: 8px 20px;
+  margin: 10px 0;
+  resize: none;
+  border: 1px solid darkolivegreen;
+  font-size: 20px;
+  color: cadetblue;
+  font-family: sans-serif;
+}
+.form-submit {
+  width: 88%;
+  height: 41px;
+  background: palegreen;
+  border: 1px solid darkolivegreen;
+  font-size: 20px;
+  color: cadetblue;
+}
+.form-submit:hover {
+  background: darkgreen;
+  cursor: pointer;
+}

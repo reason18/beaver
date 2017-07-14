@@ -1,23 +1,28 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './Header';
-import Content from './Content';
+import Banner from './Banner';
 import Navigation from './Navigation';
 import About from './About';
+import Services from './Services';
+import Portfolio from './Portfolio';
+import Contacts from './Contacts';
+import Reviews from './Reviews';
+import Blog from './Blog';
+
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="wrapper">
-          <div className="main-page">
-            <Header />
-            <Content />
-          </div>
+          <Banner />
           <Navigation />
           <About />
-        </div>
+          <Services />
+          <Portfolio />
+          <Contacts />
+          <Reviews />
+          <Blog />
       </div>
     );
   }

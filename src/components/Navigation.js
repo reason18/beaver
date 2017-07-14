@@ -4,7 +4,7 @@ class Navigation extends Component {
     return (
       <div className=" navigation" id="navigation">
         <div className="holder navigation-flex">
-          <div className="navigation-logo">Logo</div>
+          <div className="navigation-logo">Beaver IT</div>
           <nav>
             <ul className="navigation-block">
               <li className="navigation-item"><a href="">Главная</a></li>
